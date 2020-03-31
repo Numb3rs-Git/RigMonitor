@@ -211,7 +211,7 @@ class MainPanel(Frame):
 
 if __name__ == "__main__":  
   root = Tk()
-  root.wm_title("SensorViewer")
+  root.wm_title("RigMonitor")
   sensor = SerialSensors()
   
   try:
